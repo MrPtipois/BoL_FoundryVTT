@@ -1,0 +1,29 @@
+{
+  "name": "BoL",
+  "title": "Barbarian of Lemuria",
+  "description": "A comprehensive game system for running games of Barbarian of Lemuria in the Foundry VTT environment. Changed from dd5 module Atropos",
+  "version": 0.01,
+  "author": "MrPtipois",
+  "scripts": [],
+  "esmodules": ["bol.js"],
+  "styles": ["bol.css"],
+  "packs": [],
+  "languages": [
+    {
+      "lang": "fr",
+      "name": "Francais",
+      "path": "lang/fr.json"
+    }
+  ],
+  "socket": true,
+  "initiative": "1d20 + @abilities.dex.mod + @attributes.init.value + (@abilities.dex.value / 100)",
+  "gridDistance": 5,
+  "gridUnits": "ft",
+  "primaryTokenAttribute": "attributes.hp",
+  "secondaryTokenAttribute": null,
+  "minimumCoreVersion": "0.5.6",
+  "compatibleCoreVersion": "0.6.3",
+  "url": "https://gitlab.com/foundrynet/dnd5e",
+  "manifest": "https://gitlab.com/foundrynet/dnd5e/raw/master/system.json",
+  "download": "https://gitlab.com/foundrynet/dnd5e/-/archive/release-0.9.3/dnd5e-release-0.9.3.zip"
+}
